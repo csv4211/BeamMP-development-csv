@@ -7,12 +7,14 @@
 }
 
 #top-bar {
-  background: #404040b8;
+  /* background: #404040b8;  */ /* старый */
+  background-color: rgba(0, 0, 0, 0.4); /* новый */
 }
 
 #left-menu {
   color: white;
-  background-color: #404040b8;
+  /* background-color: #404040b8; */ /* старый */
+  background-color: rgba(0, 0, 0, 0.4); /* новый */
 }
 
 #map-select {
@@ -20,6 +22,74 @@
   background: unset;
   color: white !important;
 }
+
+a.md-button.md-primary.md-raised{
+  background-color: rgba(27,27,27,0.3);
+}
+
+.md-button.md-primary.md-raised{
+  background-color: rgba(27,27,27,0.3);
+}
+
+.multiplayer-login-btn {
+  margin-left: 0;
+  max-width: fit-content;
+}
+
+.multiplayer-play-guest-btn {
+  max-width: fit-content;
+}
+
+.multiplayer-register-btn {
+  margin-right: 0;
+  max-width: fit-content;
+}
+
+.login-button-block {
+  display:flex;
+  align-content: space-evenly;
+  width: 400px; /* изначалный */
+  width: auto; /* новый */
+  min-width: 400px;
+}
+
+/*------------------------------ch----------------------------------*/
+
+a.md-button.md-primary.md-raised:not([disabled]):hover, .md-button.md-primary.md-raised:not([disabled]):hover { /* новое */
+  background-color: rgba(27,27,27,0.4);
+}
+
+/* a.md-button.md-raised:not([disabled]):hover, .md-button.md-raised:not([disabled]):hover {
+  background-color: rgba(27,27,27,0.4);
+} */
+                                                                                                /*новое - покачто не используется */
+/* a.md-button:not([disabled]):hover, .md-button:not([disabled]):hover {
+  background-color: rgba(27,27,27,0.4);
+} */
+
+.direct-connect {
+  padding-left: 15px;
+  background-color: rgba(101, 101, 101, 0.34);
+}
+
+.paste-from-clipboard-but {
+  width: auto;
+  margin: 0 0 0 10px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  background-color: rgb(212, 100, 26);
+  text-decoration: none;
+  font-size: 15px;
+  transition-duration: 0.15s;
+  cursor: pointer;
+}
+
+
+
+/*------------------------------ch----------------------------------*/
+
+
 
 #back {
   width: 100%;
@@ -104,15 +174,21 @@ table#serversTable {
   float: right;
 }
 
+/*------------------------------ch----------------------------------*/
+
 #direct-connect-button {
-  width: 425px;
+  /* width: 425px; */  /* старый */
+  width: 400px; /* новый */
   margin-left: 0px;
 }
 
 #add-fav-button {
-  width: fit-content;
+  /* width: fit-content; */ /* старый */
+  width: auto; /* новый */
   margin-left: 0px;
 }
+
+/*------------------------------ch----------------------------------*/
 
 #launcher-connect-button {
   width: 250px;
