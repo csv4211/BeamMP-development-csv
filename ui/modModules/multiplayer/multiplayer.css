@@ -31,7 +31,27 @@ a.md-button.md-primary.md-raised{
   background-color: rgba(27,27,27,0.3);
 }
 
+.multiplayer-login-btn {
+  margin-left: 0;
+  max-width: fit-content;
+}
 
+.multiplayer-play-guest-btn {
+  max-width: fit-content;
+}
+
+.multiplayer-register-btn {
+  margin-right: 0;
+  max-width: fit-content;
+}
+
+.login-button-block {
+  display:flex;
+  align-content: space-evenly;
+  width: 400px; /* изначалный */
+  width: auto; /* новый */
+  min-width: 400px;
+}
 
 /*------------------------------ch----------------------------------*/
 
@@ -64,6 +84,8 @@ a.md-button.md-primary.md-raised:not([disabled]):hover, .md-button.md-primary.md
   transition-duration: 0.15s;
   cursor: pointer;
 }
+
+
 
 /*------------------------------ch----------------------------------*/
 
