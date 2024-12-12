@@ -49,11 +49,11 @@ ssd
 
 
 
+----------------------------
 
 
 
-
-
+ru
 
 
 locales-ru(en) "BeamMP-development\mp_locales\ru_RU.json" - строка 4 добавлена локализация "ui.mainmenu.mod" над кнопкой мультиплеера, строка 91 добавлена локализация "ui.multiplayer.add.favorite" созранить в избранное, строка 106 добавлена локализация "ui.multiplayer.patreon.message.user"
